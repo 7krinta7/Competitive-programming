@@ -16,7 +16,7 @@ int main() {
         bool check=false;
         for(int i=0;i<n;i++){
             for(int j=i+1;j<n;j++){
-                if(gcd(v[i],v[j])<=2)
+                if(__gcd(v[i],v[j])<=2)
                 check=true;
             }
         }
